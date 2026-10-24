@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="380">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#181335"/>
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.85"/>
+    </linearGradient>
+
+    <radialGradient id="glowPulse" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="blurFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="badgeShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+
+    <style>
+      @keyframes pulseGlow1 {
+        0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.35; }
+        50% { transform: scale(1.15) translate(30px, -15px); opacity: 0.6; }
+      }
+      @keyframes pulseGlow2 {
+        0%, 100% { transform: scale(1.1) translate(0, 0); opacity: 0.4; }
+        50% { transform: scale(0.95) translate(-40px, 20px); opacity: 0.2; }
+      }
+      @keyframes floatSlow1 {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-10px) rotate(1.5deg); }
+      }
+      @keyframes floatSlow2 {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-12px) rotate(-1.5deg); }
+      }
+      @keyframes shimmerAnim {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(100%); }
+      }
+      @keyframes gridPulse {
+        0%, 100% { opacity: 0.12; }
+        50% { opacity: 0.25; }
+      }
+      .anim-glow1 { animation: pulseGlow1 8s ease-in-out infinite; transform-origin: 250px 150px; }
+      .anim-glow2 { animation: pulseGlow2 10s ease-in-out infinite; transform-origin: 950px 200px; }
+      .anim-float1 { animation: floatSlow1 6s ease-in-out infinite; }
+      .anim-float2 { animation: floatSlow2 7s ease-in-out infinite; }
+      .anim-grid { animation: gridPulse 5s ease-in-out infinite; }
+      .shimmer-bar { animation: shimmerAnim 4s linear infinite; }
+      
+      .main-title {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 44px;
+        fill: #ffffff;
+        letter-spacing: -0.5px;
+      }
+      .gradient-span {
+        fill: url(#textGrad);
+      }
+      .subtitle {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 17px;
+        fill: #94a3b8;
+        letter-spacing: 0.2px;
+      }
+      .pill-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        fill: #e2e8f0;
+      }
+      .tag-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        font-size: 11px;
+        fill: #38bdf8;
+        letter-spacing: 1.5px;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base Canvas -->
+  <rect width="1200" height="380" rx="16" fill="url(#bgGradient)"/>
+
+  <!-- Subtle Animated Ambient Glows (strictly behind all content) -->
+  <g>
+    <circle class="anim-glow1" cx="220" cy="120" r="180" fill="url(#glowPulse)" filter="url(#blurFilter)"/>
+    <circle class="anim-glow2" cx="980" cy="220" r="220" fill="#38bdf8" opacity="0.15" filter="url(#blurFilter)"/>
+    <circle cx="600" cy="320" r="160" fill="#c084fc" opacity="0.12" filter="url(#blurFilter)"/>
+  </g>
+
+  <!-- High-Tech Geometric Grid Background (Low Opacity) -->
+  <g class="anim-grid" stroke="#334155" stroke-width="0.8" opacity="0.18">
+    <line x1="80" y1="0" x2="80" y2="380"/>
+    <line x1="200" y1="0" x2="200" y2="380"/>
+    <line x1="320" y1="0" x2="320" y2="380"/>
+    <line x1="440" y1="0" x2="440" y2="380"/>
+    <line x1="560" y1="0" x2="560" y2="380"/>
+    <line x1="680" y1="0" x2="680" y2="380"/>
+    <line x1="800" y1="0" x2="800" y2="380"/>
+    <line x1="920" y1="0" x2="920" y2="380"/>
+    <line x1="1040" y1="0" x2="1040" y2="380"/>
+    <line x1="1120" y1="0" x2="1120" y2="380"/>
+    
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+  </g>
+
+  <!-- Left Floating Dynamic Document Element (Accent) -->
+  <g class="anim-float1" opacity="0.65" transform="translate(70, 75)">
+    <rect width="68" height="88" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.5"/>
+    <line x1="14" y1="22" x2="54" y2="22" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="14" y1="34" x2="44" y2="34" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
+    <line x1="14" y1="44" x2="50" y2="44" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
+    <line x1="14" y1="54" x2="38" y2="54" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="48" cy="68" r="8" fill="#38bdf8" fill-opacity="0.2"/>
+    <path d="M45 68 L47 70 L52 65" stroke="#38bdf8" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Right Floating Dynamic Document/Cloud Element (Accent) -->
+  <g class="anim-float2" opacity="0.65" transform="translate(1060, 65)">
+    <rect width="70" height="90" rx="8" fill="#1e293b" stroke="#c084fc" stroke-width="1.2" stroke-opacity="0.5"/>
+    <rect x="12" y="16" width="46" height="26" rx="4" fill="#6366f1" fill-opacity="0.25"/>
+    <line x1="12" y1="54" x2="58" y2="54" stroke="#c084fc" stroke-width="2" stroke-linecap="round"/>
+    <line x1="12" y1="64" x2="46" y2="64" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
+    <line x1="12" y1="74" x2="52" y2="74" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Header, Titles, and Subtitles (Centered, Clear, and Unobstructed) -->
+  
+  <!-- Category Overline Badge -->
+  <g transform="translate(600, 68)" text-anchor="middle">
+    <rect x="-135" y="-14" width="270" height="28" rx="14" fill="#0369a1" fill-opacity="0.25" stroke="#0ea5e9" stroke-width="1"/>
+    <text y="5" class="tag-text" text-anchor="middle">⚡ CURATED ECOSYSTEM DIRECTORY</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="600" y="132" class="main-title" text-anchor="middle">
+    Awesome <tspan class="gradient-span">Online Document Services</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="174" class="subtitle" text-anchor="middle">
+    Comprehensive Guide to Enterprise SaaS Platforms, Open-Source PDF Toolkits &amp; Browser-Local Processing
+  </text>
+
+  <!-- Animated Glowing Divider Bar -->
+  <g transform="translate(425, 196)">
+    <rect width="350" height="2" rx="1" fill="#334155"/>
+    <rect width="180" height="2" rx="1" fill="url(#shimmer)" class="shimmer-bar"/>
+  </g>
+
+  <!-- Feature Pillar Badges / Dynamic Pills in Foreground (Y: 228 - 280) -->
+  <g transform="translate(600, 252)" text-anchor="middle">
+    <!-- Pill 1: Browser-Local WASM -->
+    <g transform="translate(-410, 0)" filter="url(#badgeShadow)">
+      <rect x="-95" y="-20" width="190" height="40" rx="20" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.4"/>
+      <text y="6" class="pill-text" text-anchor="middle">🔒 Browser-Local WASM</text>
+    </g>
+
+    <!-- Pill 2: Self-Hosted Docker -->
+    <g transform="translate(-200, 0)" filter="url(#badgeShadow)">
+      <rect x="-90" y="-20" width="180" height="40" rx="20" fill="url(#cardGrad)" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.4"/>
+      <text y="6" class="pill-text" text-anchor="middle">⚡ Self-Hosted Docker</text>
+    </g>
+
+    <!-- Pill 3: PDF OCR & Edit -->
+    <g transform="translate(0, 0)" filter="url(#badgeShadow)">
+      <rect x="-85" y="-20" width="170" height="40" rx="20" fill="url(#cardGrad)" stroke="#a855f7" stroke-width="1.2" stroke-opacity="0.4"/>
+      <text y="6" class="pill-text" text-anchor="middle">📄 Full PDF Suites</text>
+    </g>
+
+    <!-- Pill 4: eSign & Workflows -->
+    <g transform="translate(195, 0)" filter="url(#badgeShadow)">
+      <rect x="-90" y="-20" width="180" height="40" rx="20" fill="url(#cardGrad)" stroke="#ec4899" stroke-width="1.2" stroke-opacity="0.4"/>
+      <text y="6" class="pill-text" text-anchor="middle">✍️ Digital eSignature</text>
+    </g>
+
+    <!-- Pill 5: Enterprise SaaS -->
+    <g transform="translate(395, 0)" filter="url(#badgeShadow)">
+      <rect x="-85" y="-20" width="170" height="40" rx="20" fill="url(#cardGrad)" stroke="#10b981" stroke-width="1.2" stroke-opacity="0.4"/>
+      <text y="6" class="pill-text" text-anchor="middle">☁️ Enterprise SaaS</text>
+    </g>
+  </g>
+
+  <!-- Bottom Architecture Metrics / Subtext -->
+  <g transform="translate(600, 325)" text-anchor="middle">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#64748b" text-anchor="middle">
+      🛡️ Zero-Data-Leakage Workflows • 🚀 Docker &amp; REST Microservices • 📊 Exhaustive Pricing &amp; Star Tracking
+    </text>
+  </g>
+
+  <!-- Border Frame -->
+  <rect x="1" y="1" width="1198" height="378" rx="15" fill="none" stroke="#334155" stroke-width="1" opacity="0.4"/>
+</svg>
