@@ -72,85 +72,85 @@ The following SaaS suites provide turn-key cloud document processing and e-signa
 
 Open-source document applications allow organizations to retain **100% data privacy**, eliminate subscription costs, and deploy on-premise or run purely in-browser via WebAssembly.
 
-Repositories are listed in **descending order by GitHub star count**:
+Repositories are listed in **descending order by GitHub Stars_Count**:
 
-### 1. 🥇 [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) [![GitHub stars](https://img.shields.io/github/stars/Stirling-Tools/Stirling-PDF?style=social&color=white)](https://github.com/Stirling-Tools/Stirling-PDF/stargazers)
+### 1. 🥇 [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) [![GitHub_Stars](https://img.shields.io/github/stars/Stirling-Tools/Stirling-PDF?style=social&color=white)](https://github.com/Stirling-Tools/Stirling-PDF/stargazers)
 * **Description:** The undisputed **#1 self-hosted PDF powerhouse** on GitHub. An open-core Java/Spring Boot application packaging **50+ tools in a single Docker container**.
 * **Capabilities:** Merge, split, rotate, reorganize pages, perform multi-language OCR (100+ languages via Tesseract), convert Office/HTML/Markdown/images to PDF, redact sensitive text, apply watermarks, digitally sign, and repair corrupted files.
 * **Deployment & Privacy:** Completely stateless by default — files are processed on your self-hosted instance and wiped instantly after completion. Desktop apps available for Windows, macOS, and Linux.
 * **Docker Quickstart:** `docker run -d -p 8080:8080 frooodle/s-pdf:latest`
 
-### 2. 🥈 [mozilla/pdf.js](https://github.com/mozilla/pdf.js) [![GitHub stars](https://img.shields.io/github/stars/mozilla/pdf.js?style=social&color=white)](https://github.com/mozilla/pdf.js/stargazers)
+### 2. 🥈 [mozilla/pdf.js](https://github.com/mozilla/pdf.js) [![GitHub_Stars](https://img.shields.io/github/stars/mozilla/pdf.js?style=social&color=white)](https://github.com/mozilla/pdf.js/stargazers)
 * **Description:** The world's most widely deployed web-standard PDF parsing and rendering library, crafted and maintained by Mozilla.
 * **Capabilities:** Renders Portable Document Format (PDF) files directly inside HTML5 canvas and SVG elements across any modern browser without native plugins.
 * **Best For:** Developers embedding robust, responsive, and cross-platform PDF viewing into web applications.
 
-### 3. 🥉 [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) [![GitHub stars](https://img.shields.io/github/stars/paperless-ngx/paperless-ngx?style=social&color=white)](https://github.com/paperless-ngx/paperless-ngx/stargazers)
+### 3. 🥉 [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) [![GitHub_Stars](https://img.shields.io/github/stars/paperless-ngx/paperless-ngx?style=social&color=white)](https://github.com/paperless-ngx/paperless-ngx/stargazers)
 * **Description:** A community-driven, supercharged document management system (DMS) that transforms stacks of physical paperwork into searchable digital archives.
 * **Capabilities:** Automated ingestion from email, network shares, or scanners; parallelized optical character recognition (OCR); automatic tag, correspondent, and document-type classification using machine learning; full-text search with auto-complete.
 * **Best For:** Home labs, legal offices, and small enterprises seeking a private, searchable digital file cabinet.
 
-### 4. 📝 [docmost/docmost](https://github.com/docmost/docmost) [![GitHub stars](https://img.shields.io/github/stars/docmost/docmost?style=social&color=white)](https://github.com/docmost/docmost/stargazers)
+### 4. 📝 [docmost/docmost](https://github.com/docmost/docmost) [![GitHub_Stars](https://img.shields.io/github/stars/docmost/docmost?style=social&color=white)](https://github.com/docmost/docmost/stargazers)
 * **Description:** Modern open-source collaborative wiki and knowledge-base management software built as an open alternative to Notion, Confluence, and Google Docs.
 * **Capabilities:** Real-time multiplayer collaborative document editing, rich-text markdown-friendly formatting, hierarchical space management, permission control, and Dockerized deployment.
 * **Best For:** Engineering teams and knowledge workers looking for collaborative document authoring without vendor lock-in.
 
-### 5. 🛡️ [alam00000/bentopdf](https://github.com/alam00000/bentopdf) [![GitHub stars](https://img.shields.io/github/stars/alam00000/bentopdf?style=social&color=white)](https://github.com/alam00000/bentopdf/stargazers)
+### 5. 🛡️ [alam00000/bentopdf](https://github.com/alam00000/bentopdf) [![GitHub_Stars](https://img.shields.io/github/stars/alam00000/bentopdf?style=social&color=white)](https://github.com/alam00000/bentopdf/stargazers)
 * **Description:** The **privacy-first, client-side WebAssembly (WASM) PDF toolkit** featuring 130+ tools executed entirely within the user's browser.
 * **Capabilities:** Merge, split, compress, watermark, rotate, annotate, OCR, and convert documents locally. No document is ever transmitted across the network — true zero-server exposure.
 * **Deployment:** Deployable as static assets to Cloudflare Pages, Netlify, Vercel, or locally via Docker (`ghcr.io/alam00000/bentopdf-simple:latest`). Air-gapped environments supported.
 
-### 6. ✍️ [documenso/documenso](https://github.com/documenso/documenso) [![GitHub stars](https://img.shields.io/github/stars/documenso/documenso?style=social&color=white)](https://github.com/documenso/documenso/stargazers)
+### 6. ✍️ [documenso/documenso](https://github.com/documenso/documenso) [![GitHub_Stars](https://img.shields.io/github/stars/documenso/documenso?style=social&color=white)](https://github.com/documenso/documenso/stargazers)
 * **Description:** The community-backed open-source alternative to DocuSign and Adobe Sign.
 * **Capabilities:** Full digital e-signature lifecycle, custom signing templates, cryptographic signature sealing, automated reminders, webhook events, and REST API integration for automated signature workflows.
 * **Tech Stack:** TypeScript, Next.js, Prisma, Tailwind CSS, deployable via Docker Compose.
 
-### 7. 🚀 [gotenberg/gotenberg](https://github.com/gotenberg/gotenberg) [![GitHub stars](https://img.shields.io/github/stars/gotenberg/gotenberg?style=social&color=white)](https://github.com/gotenberg/gotenberg/stargazers)
+### 7. 🚀 [gotenberg/gotenberg](https://github.com/gotenberg/gotenberg) [![GitHub_Stars](https://img.shields.io/github/stars/gotenberg/gotenberg?style=social&color=white)](https://github.com/gotenberg/gotenberg/stargazers)
 * **Description:** A Docker-powered, stateless REST API for high-volume document conversion.
 * **Capabilities:** Seamlessly converts HTML, Markdown, Word, Excel, PowerPoint, and images to PDF using headless Chromium, LibreOffice, and PDFtk. Includes PDF/A archiving and merging endpoints.
 * **Best For:** Backend developers building SaaS apps that require programmatic, scalable PDF generation microservices.
 
-### 8. 🐍 [py-pdf/pypdf](https://github.com/py-pdf/pypdf) [![GitHub stars](https://img.shields.io/github/stars/py-pdf/pypdf?style=social&color=white)](https://github.com/py-pdf/pypdf/stargazers)
+### 8. 🐍 [py-pdf/pypdf](https://github.com/py-pdf/pypdf) [![GitHub_Stars](https://img.shields.io/github/stars/py-pdf/pypdf?style=social&color=white)](https://github.com/py-pdf/pypdf/stargazers)
 * **Description:** The classic, pure-Python library for reading, splitting, merging, cropping, transforming, encrypting, and decrypting PDF files.
 * **Capabilities:** Zero external binary dependencies; extracts text and metadata; creates bookmarks; stamps watermarks; works across all standard Python environments.
 * **Best For:** Python automated scripts, data science pipelines, and backend document manipulation.
 
-### 9. ⚡ [pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu) [![GitHub stars](https://img.shields.io/github/stars/pdfcpu/pdfcpu?style=social&color=white)](https://github.com/pdfcpu/pdfcpu/stargazers)
+### 9. ⚡ [pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu) [![GitHub_Stars](https://img.shields.io/github/stars/pdfcpu/pdfcpu?style=social&color=white)](https://github.com/pdfcpu/pdfcpu/stargazers)
 * **Description:** High-performance PDF processing engine and command-line utility written in pure Go.
 * **Capabilities:** Validates PDF compliance, extracts images and fonts, splits, merges, rotates, crops, watermarks, stamps, and optimizes PDF file structure for massive throughput.
 * **Best For:** High-concurrency Go microservices, CLI power users, and serverless compute pipelines.
 
-### 10. 📜 [Hopding/pdf-lib](https://github.com/Hopding/pdf-lib) [![GitHub stars](https://img.shields.io/github/stars/Hopding/pdf-lib?style=social&color=white)](https://github.com/Hopding/pdf-lib/stargazers)
+### 10. 📜 [Hopding/pdf-lib](https://github.com/Hopding/pdf-lib) [![GitHub_Stars](https://img.shields.io/github/stars/Hopding/pdf-lib?style=social&color=white)](https://github.com/Hopding/pdf-lib/stargazers)
 * **Description:** Pure JavaScript/TypeScript PDF creation and mutation library built with zero native C/C++ dependencies.
 * **Capabilities:** Create new PDFs from scratch, draw vector graphics and text, modify existing pages, embed PNG/JPEG images, and fill interactive PDF forms across Node.js, Deno, and web browsers.
 * **Best For:** Fullstack JavaScript engineers needing client-side or serverless PDF assembly.
 
-### 11. 🔏 [OpenSignLabs/OpenSign](https://github.com/OpenSignLabs/OpenSign) [![GitHub stars](https://img.shields.io/github/stars/OpenSignLabs/OpenSign?style=social&color=white)](https://github.com/OpenSignLabs/OpenSign/stargazers)
+### 11. 🔏 [OpenSignLabs/OpenSign](https://github.com/OpenSignLabs/OpenSign) [![GitHub_Stars](https://img.shields.io/github/stars/OpenSignLabs/OpenSign?style=social&color=white)](https://github.com/OpenSignLabs/OpenSign/stargazers)
 * **Description:** Free and open-source electronic signature platform with built-in PDF document signer, form builder, and audit trail engine.
 * **Capabilities:** Legally binding digital signatures, bulk sending, multi-party signing orders, reusable templates, and developer APIs.
 * **Best For:** Small-to-medium businesses looking for an open-source DocuSign replacement with team management.
 
-### 12. 🏢 [ONLYOFFICE/DocumentServer](https://github.com/ONLYOFFICE/DocumentServer) [![GitHub stars](https://img.shields.io/github/stars/ONLYOFFICE/DocumentServer?style=social&color=white)](https://github.com/ONLYOFFICE/DocumentServer/stargazers)
+### 12. 🏢 [ONLYOFFICE/DocumentServer](https://github.com/ONLYOFFICE/DocumentServer) [![GitHub_Stars](https://img.shields.io/github/stars/ONLYOFFICE/DocumentServer?style=social&color=white)](https://github.com/ONLYOFFICE/DocumentServer/stargazers)
 * **Description:** Enterprise-ready collaborative online office suite featuring full-fledged document, spreadsheet, presentation, and native PDF editors.
 * **Capabilities:** Real-time multi-user editing, PDF annotation and text editing, form creation, track changes, and out-of-the-box integration with Nextcloud, ownCloud, and Seafile.
 * **Best For:** Organizations building private cloud office workspaces on sovereign infrastructure.
 
-### 13. ✂️ [pdfarranger/pdfarranger](https://github.com/pdfarranger/pdfarranger) [![GitHub stars](https://img.shields.io/github/stars/pdfarranger/pdfarranger?style=social&color=white)](https://github.com/pdfarranger/pdfarranger/stargazers)
+### 13. ✂️ [pdfarranger/pdfarranger](https://github.com/pdfarranger/pdfarranger) [![GitHub_Stars](https://img.shields.io/github/stars/pdfarranger/pdfarranger?style=social&color=white)](https://github.com/pdfarranger/pdfarranger/stargazers)
 * **Description:** Minimalist, lightning-fast GTK desktop utility to visually merge, split, rotate, crop, and rearrange PDF document pages.
 * **Capabilities:** Clean drag-and-drop graphical user interface powered by pikepdf; instant page reordering with zero learning curve.
 * **Best For:** Desktop users wanting quick visual document rearrangement without bloated suites or online uploads.
 
-### 14. 💻 [ranuts/document](https://github.com/ranuts/document) [![GitHub stars](https://img.shields.io/github/stars/ranuts/document?style=social&color=white)](https://github.com/ranuts/document/stargazers)
+### 14. 💻 [ranuts/document](https://github.com/ranuts/document) [![GitHub_Stars](https://img.shields.io/github/stars/ranuts/document?style=social&color=white)](https://github.com/ranuts/document/stargazers)
 * **Description:** Local-first browser document editor for Microsoft Word (`.docx`), Excel (`.xlsx`), PowerPoint (`.pptx`), and PDF files.
 * **Capabilities:** Runs core document manipulation locally in-browser without Microsoft Office or cloud servers; PWA-installable, Docker deployable, and embeddable via iframe APIs.
 * **Best For:** Web applications needing embedded Office and PDF editing with local-first security.
 
-### 15. 📖 [mrmn2/PdfDing](https://github.com/mrmn2/PdfDing) [![GitHub stars](https://img.shields.io/github/stars/mrmn2/PdfDing?style=social&color=white)](https://github.com/mrmn2/PdfDing/stargazers)
+### 15. 📖 [mrmn2/PdfDing](https://github.com/mrmn2/PdfDing) [![GitHub_Stars](https://img.shields.io/github/stars/mrmn2/PdfDing?style=social&color=white)](https://github.com/mrmn2/PdfDing/stargazers)
 * **Description:** Lightweight self-hosted PDF manager, reading position tracker, and annotation tool backed by Django and SQLite.
 * **Capabilities:** Remembers last-read positions across devices, multi-level tagging and archiving, highlight annotations with note export, OIDC single sign-on, and secure QR-code share links.
 * **Best For:** Researchers, students, and teams wanting a personal, lightweight digital PDF library.
 
-### 16. ⚙️ [ComPDFKit/compdf-self-hosted](https://github.com/ComPDFKit/compdf-self-hosted) [![GitHub stars](https://img.shields.io/github/stars/ComPDFKit/compdf-self-hosted?style=social&color=white)](https://github.com/ComPDFKit/compdf-self-hosted/stargazers)
+### 16. ⚙️ [ComPDFKit/compdf-self-hosted](https://github.com/ComPDFKit/compdf-self-hosted) [![GitHub_Stars](https://img.shields.io/github/stars/ComPDFKit/compdf-self-hosted?style=social&color=white)](https://github.com/ComPDFKit/compdf-self-hosted/stargazers)
 * **Description:** Docker-deployable PDF editing and conversion center with an administrative management console.
 * **Capabilities:** Web UI for PDF editing (merge, split, rotate, watermark, encrypt) and conversion across PDF, Office, HTML, and images; includes API key monitoring and usage statistics.
 * **Best For:** Enterprises seeking commercial SDK power packaged inside a self-hosted Docker deployment.
@@ -187,7 +187,7 @@ Contributions, project additions, and updates are warmly welcomed!
 
 1. 🍴 **Fork the repository** on GitHub.
 2. 🌿 **Create a new branch**: `git checkout -b feature/add-document-tool`
-3. 📝 **Add or update entries** in `README.md` adhering to the standard format (include name, links, accurate pricing/star badges, and factual descriptions).
+3. 📝 **Add or update entries** in `README.md` adhering to the standard format (include name, links, accurate pricing/Stars_Badges, and factual descriptions).
 4. 🚀 **Commit your changes**: `git commit -m "Add New-Document-Tool to open-source list"`
 5. 📤 **Push to branch**: `git push origin feature/add-document-tool`
 6. 🎯 **Open a Pull Request** with a concise summary.
