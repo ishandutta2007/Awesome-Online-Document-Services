@@ -37,6 +37,7 @@ Whether you need enterprise-grade cloud e-signatures, high-throughput PDF conver
 - [💻 Open-Source GitHub Projects](#-open-source-github-projects)
 - [🧭 Architecture Decision Matrix](#-architecture-decision-matrix)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Community](#-support--community)
 - [⭐ Star History](#star-history)
 - [⚖️ Disclaimer & Privacy Guidelines](#️-disclaimer--privacy-guidelines)
 
@@ -190,6 +191,26 @@ Contributions, project additions, and updates are warmly welcomed!
 4. 🚀 **Commit your changes**: `git commit -m "Add New-Document-Tool to open-source list"`
 5. 📤 **Push to branch**: `git push origin feature/add-document-tool`
 6. 🎯 **Open a Pull Request** with a concise summary.
+
+---
+
+## 💖 Support & Community
+
+A huge thank you to everyone in the open-source community who uses, recommends, and improves this project! 🙌
+
+If you find this curated ecosystem directory valuable, here are a few impactful ways you can support its ongoing maintenance:
+* ⭐ **Star the repo** on [GitHub](https://github.com/ishandutta2007/Awesome-Online-Document-Services) to boost its visibility.
+* 🍴 **Fork & share** it with your engineering peers, DevOps channels, or productivity groups.
+* ☕ **Buy me a coffee / Sponsor the project** — support independent open-source curation via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<p align="left">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor on GitHub" />
+  </a>
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" />
+  </a>
+</p>
 
 ---
 
